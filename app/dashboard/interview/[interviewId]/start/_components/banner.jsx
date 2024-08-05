@@ -14,7 +14,7 @@ export default function FAQ() {
     </svg>
   </button>
   <p className="text-center text-sm font-medium">
-    If nothing shows up click update the website, click 'Dashboard' and create a new interview with the same information.
+    If nothing shows up click update the website, click on 'Dashboard' and create a new interview with the same information.
   </p>
   <button
     aria-label="Dismiss"
