@@ -20,7 +20,7 @@ function QuestionsSection({ mockInterviewQuestion, activeQuestionIndex, jsonMock
     <div className='p-5 border rounded-lg my-10'>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
         {jsonMockResp.map((question, index) => (
-          <h2 key={index} className={`p-2 border rounded-full
+          <h2 key={index} className={`p-2 border rounded-md
                 text-xs md:text-sm text-center cursor-pointer
                 ${activeQuestionIndex == index && 'bg-primary text-white'}`}>
             Question #{index + 1}

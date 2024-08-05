@@ -5,6 +5,7 @@ import { eq } from 'drizzle-orm';
 import React, { useEffect, useState } from 'react';
 import QuestionsSection from './_components/QuestionsSection';
 import RecordAnswerSection from './_components/RecordAnswerSection';
+import Banner from './_components/banner';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
@@ -49,6 +50,9 @@ function StartInterview({ params }) {
 
   return (
     <div>
+      <div className='pt-4'>
+        <Banner/>
+      </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
         <QuestionsSection
           mockInterviewQuestion={mockInterviewQuestion}
